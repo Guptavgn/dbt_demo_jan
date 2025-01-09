@@ -18,3 +18,7 @@ models:
       +database: stg
       +schema: airbnb
       +materialized: table
+    integration:
+      +database: int
+      +schema: airbnb
+      +materialized: view

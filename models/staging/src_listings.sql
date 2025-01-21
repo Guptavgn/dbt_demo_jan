@@ -7,4 +7,4 @@ minimum_nights,
 host_id,
 price AS price_str, created_at, updated_at
 FROM
-raw.airbnb.raw_listings
+source('raw_airbnb','listings')

@@ -22,3 +22,7 @@ models:
       +database: int
       +schema: airbnb
       +materialized: view
+seeds:
+  dbt_demo:
+    +database: int
+    +schmea: airbnb
